@@ -2,27 +2,37 @@
 
 ## TECH STACK USED
 
-### Tailwind Css
+#### 1. Tailwind Css
 
-### React JS
+#### 2. React JS
 
-### Font Awesome
+#### 3. Font Awesome
 
-### React Bootstrap
+####  4. React Bootstrap
 
 
 ## External APIs
 
 
-### Github API
-### Hashnode API
+#### 1. Github API
+#### 2.  Hashnode API
 
 
 ## Deployment Enviroments
 
-### Vercel
+#### 1. Vercel
 
 ## How to get started
+1. git clone https://github.com/amschel99/Personal-Website.git
+
+2 . npm install
+
+3. npm start
+
+
+## Be kind
+
+If you like this project, give it a star
 
 
 
