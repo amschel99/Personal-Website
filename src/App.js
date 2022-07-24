@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const App = () => {
   return (
-    <div>Personal Portfolio</div>
+    <div className='bg-sea-100'>
+      <Navbar/>
+
+
+    </div>
   )
 }
 
