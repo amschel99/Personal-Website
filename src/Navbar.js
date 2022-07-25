@@ -6,8 +6,8 @@ const Navbar = () => {
     const ref= React.useRef("")
     const[open,setOpen]=React.useState(false)
   return (
-    <nav className='w-screen h-14 bg-sea-100 fixed flex items-center justify-evenly' >
-        <div className='cursor-pointer'>
+    <nav className='w-screen h-14 bg-sea-100 fixed flex items-center justify-evenly fixed' >
+        <div className='cursor-pointer '>
            <h1 className='text-pink-500 text-2xl font-heading mx-20  '>Amschel</h1> 
         </div>
 
