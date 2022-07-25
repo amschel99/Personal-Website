@@ -72,7 +72,7 @@ const Navbar = () => {
         {/*SIDE BAR */}
 
         <div ref={ref} className={` ${open?"w-screen ":" w-0 h-0 sr-only"} cursor-pointer smblock md:block lg:hidden xlg:hidden w-screen block bg-sea-100 absolute top-12    `}>
-            <ul className={` ${open?"w-full scale-2":"scale-0 w-0 h-0"}  flex flex-col justify-evenly h-[300px] items-center duration-1000   `}>
+            <ul className={` ${open?"w-full scale-2":"scale-0 w-0 h-0"}  flex flex-col justify-evenly h-[300px] items-center duration-300   `}>
                 <li className='flex text-crimson-500  font-lato mx-4'>
                     <FontAwesomeIcon icon={faHome} className="mx-1 text-lg"/>
                     <h1 className='mx-1'>Home</h1>
