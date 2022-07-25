@@ -6,9 +6,9 @@ const Navbar = () => {
     const ref= React.useRef("")
     const[open,setOpen]=React.useState(false)
   return (
-    <nav className='w-screen h-14 bg-sea-200 fixed flex items-center justify-evenly' >
+    <nav className='w-screen h-14 bg-sea-100 fixed flex items-center justify-evenly' >
         <div className='cursor-pointer'>
-           <h1 className='text-pink-500 text-2xl font-heading mx-20 '>Amschel</h1> 
+           <h1 className='text-pink-500 text-2xl font-heading mx-20  '>Amschel</h1> 
         </div>
 
 
@@ -71,8 +71,8 @@ const Navbar = () => {
 
         {/*SIDE BAR */}
 
-        <div ref={ref} className={` cursor-pointer smblock md:block lg:hidden xlg:hidden w-screen block bg-sea-200 absolute top-12   `}>
-            <ul className={` ${open?"w-full scale-2":"scale-0 w-0 h-0"}  flex flex-col justify-evenly h-[300px] items-center duration-1000  `}>
+        <div ref={ref} className={` ${open?"w-screen ":" w-0 h-0 sr-only"} cursor-pointer smblock md:block lg:hidden xlg:hidden w-screen block bg-sea-100 absolute top-12    `}>
+            <ul className={` ${open?"w-full scale-2":"scale-0 w-0 h-0"}  flex flex-col justify-evenly h-[300px] items-center duration-1000   `}>
                 <li className='flex text-crimson-500  font-lato mx-4'>
                     <FontAwesomeIcon icon={faHome} className="mx-1 text-lg"/>
                     <h1 className='mx-1'>Home</h1>
