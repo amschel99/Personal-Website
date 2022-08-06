@@ -11,7 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Amschel Kariuki</span>
             from <span className="purple"> Nairobi,Kenya</span>
             <br />
-            I'm passionate about computers, coding and design.
+        I'm a problem solver who strives to  create useful  products that solve people's problems.
+        
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
