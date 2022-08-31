@@ -16,18 +16,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            Get a Website today<span className="purple"> and scale your business</span>
             </h1>
             <p className="home-about-body">
 I know it's hard to find an expert developer who is actually  motivated to  work with you to develop 
  your website and ship it into production.
+
+
  I have helped  hundreds of clients like you to convert their ideas into fully functional websites.
+
+
  I will take the weight of the project off your shoulders and I will handle it with expertise with little or no effort 
  required from you. At the end, you will get a high-performant and profesionally built software.
+
  Having worked with React and Node  for the past 3 years I understand  and implement the best tools and practices
  required to deliver high-performant websites.
+
+
  You don't have to worry about maintenance of the website.I will include an easy-to-understand 
- guide on all the feautures of the website and the source code as part of the delivarables.
+ guide on all the features of the website and the source code as part of the delivarables.
+
+
  I value deadlines and its my work ethic to work with one client closely without jumping around until we get the job done.
 
               <br />
