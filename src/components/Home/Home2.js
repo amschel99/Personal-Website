@@ -21,41 +21,22 @@ function Home2() {
             <p className="home-about-body">
               Do you want to levarage the internet to market your product?
                Your website is your first step!
-         But how do you make a website that is highly performant, well branded and SEO optimized?
+         But how do you make a website that is high performant, well branded and SEO optimized?
          Well, you don't have to worry about those questions anymore.
-         I'll take the weight of your project off your shoulders  handle it with expertise with little or no effort 
+         I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort 
  required from you. At the end, you will get a high-performant and profesionally built software.
- I'll also provideFree ebooks on best SEO practices and copy writing 
+ 
 
 
-I know it's hard to find an expert developer who is actually  motivated to  work with you to develop 
- your website and ship it into production.
-
-
- I have helped  hundreds of clients like you to convert their ideas into fully functional websites.
-
-
- I will take the weight of the project off your shoulders and I will handle it with expertise with little or no effort 
- required from you. At the end, you will get a high-performant and profesionally built software.
-
- Having worked with React and Node  for the past 3 years I understand  and implement the best tools and practices
- required to deliver high-performant websites.
-
-
- You don't have to worry about maintenance of the website.I will include an easy-to-understand 
- guide on all the features of the website and the source code as part of the delivarables.
-
-
- I value deadlines and its my work ethic to work with one client closely without jumping around until we get the job done.
 
               <br />
-              <br />I'm fluent in 
+              <br />I code in
               <i>
-                <b className="purple"> Javascript, C++, and Python</b>
+                <b className="purple"> Javascript, Java, C++, and Python</b>
               </i>
               <br />
               <br />
- I'm mostly a MERN stack guy. My interests are building &nbsp;
+I also talk about Startups,Entrepreneurship and Business in my <span><a href="https://techlia.hashnode.dev">blog</a></span> &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products,Cross-platform Applications</b> and
                 also in areas related to{" "}
