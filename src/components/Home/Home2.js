@@ -16,9 +16,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            Get a Website today<span className="purple"> and scale your business</span>
+         Are you struggling to build and market a <span className="purple">software product? </span>
             </h1>
             <p className="home-about-body">
+              Do you want to levarage the internet to market your product?
+               Your website is your first step!
+         But how do you make a website that is highly performant, well branded and SEO optimized?
+         Well, you don't have to worry about those questions anymore.
+         I'll take the weight of your project off your shoulders  handle it with expertise with little or no effort 
+ required from you. At the end, you will get a high-performant and profesionally built software.
+ I'll also provideFree ebooks on best SEO practices and copy writing 
+
+
 I know it's hard to find an expert developer who is actually  motivated to  work with you to develop 
  your website and ship it into production.
 
