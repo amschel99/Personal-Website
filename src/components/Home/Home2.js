@@ -37,13 +37,7 @@ function Home2() {
               <br />
               <br />
 I also talk about Startups,Entrepreneurship and Business in my <span><a href="https://techlia.hashnode.dev">blog</a></span> &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products,Cross-platform Applications</b> and
-                also in areas related to{" "}
-                <b className="purple">
-                 Blockchain and Web3
-                </b>
-              </i>
+              
               <br />
               <br />
               I spend most of my time working with Javascript libraries,tools,runtimes and frameworks
