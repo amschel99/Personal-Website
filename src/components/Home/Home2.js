@@ -19,12 +19,12 @@ function Home2() {
          Are you struggling to build and market a <span className="purple">software product? </span>
             </h1>
             <p className="home-about-body">
-              Do you want to levarage the internet to market your product?
+              Do you want to leverage the internet to market your product?
                Your website is your first step!
-         But how do you make a website that is high performant, well branded and SEO optimized?
+         But how do you make a website that is scalable, well branded and SEO optimized?
          Well, you don't have to worry about those questions anymore.
          I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort 
- required from you. At the end, you will get a high-performant and profesionally built software.
+ required from you. At the end, you will get a highly scalable and profesionally built software.
  
 
 
