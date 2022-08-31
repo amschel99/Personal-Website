@@ -74,10 +74,10 @@ Each piece implements isMovePossible(src, dest) and getSrcToDestPath(src, dest) 
             <ProjectCard
               imgPath={component}
               isBlog={false}
-              title="React Component Library "
-              description="A React component library made using Storybook. There are components like buttons, links, caraousel,Navbars in different sizes. i.e small, medium and large. The library is published on npm and can be consumed by any React frontend."
-              ghLink="https://github.com/amschel99/react-ui.git"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="No More Red Skin"
+              description="A Skin assessment website. It has a form where patients can answer questions about their symptoms. At the end, a patient can sign up for a webinar. It is integrated with typeform for collection of the form data"
+        
+               demoLink="https://redskin.netlify.app" 
             />
           </Col>
 
@@ -85,11 +85,11 @@ Each piece implements isMovePossible(src, dest) and getSrcToDestPath(src, dest) 
             <ProjectCard
               imgPath={chatly}
               isBlog={false}
-              title="Chatly"
-              description=" A real time React chat application which supports text messages, audio and real time video chat. It is built using Websockets, Socket io, WebRTC and Firebase. It also supports real time  file sharing"
+              title="Hacker's talk"
+              description="A real time chat application that uses the WebSocket protocol and node js. A client connects to the server and they receive a welcome message. The server also broadcasts to all the other clients that a new client has joined. When the client sends a message, it is broadcasted to all the other clients"
 
-              ghLink="https://github.com/amschel99/Chatly.git"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              ghLink="https://github.com/amschel99/Websockets.git"
+             demoLink="https://hackers-talk.herokuapp.com"    
             />
           </Col>
         </Row>
