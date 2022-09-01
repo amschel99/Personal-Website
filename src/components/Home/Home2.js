@@ -62,13 +62,7 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
           </Col>
         </Row>
         <Row>
-          <Row>
-                  <Col md={12} className="home-about-social">
-                    <h5>Subscribe to my weekly newsletter on coding, startups and entrepreneurship</h5>
-                   <div data-tf-widget="LEXdgmKc" data-tf-iframe-props="title=Subscribe" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>      
-                  </Col>
-
-          </Row>
+         
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
