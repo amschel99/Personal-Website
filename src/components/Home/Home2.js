@@ -10,6 +10,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const [value,setValue]=React.useState()
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -70,8 +71,10 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
       SUBSCRIBE TO MY NEWS LETTER TO RECEIVE CONTENT ON BUILDING PRODUCTS PEOPLE LOVE.
         </Form.Text>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control  type="email" value="" name="EMAIL" class="required email"  placeholder="Enter email" />
+     
+        <Form.Control 
+        onChange={(e)=>{setValue(e.target.value)}}
+         type="email" value={value} name="EMAIL" class="required email"  placeholder="Enter email" />
         
       </Form.Group>
 
