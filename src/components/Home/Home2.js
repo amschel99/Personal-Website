@@ -94,7 +94,7 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
       >SUBSCRIBE
         TO NEWSLETTER</button>
         
-      <script src="//embed.typeform.com/next/embed.js"></script>
+    
          </Row>
         <Row>
         
