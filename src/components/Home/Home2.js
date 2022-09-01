@@ -64,7 +64,7 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
           <Row>
                   <Col md={12} className="home-about-social">
                   <Form action="https://gmail.us9.list-manage.com/subscribe/post?u=32d2283c42c811675b64ce864&amp;id=59f46ce189&amp;f_id=00b609e1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <Form.Text className="text-muted">
+                    <Form.Text >
       SUBSCRIBE TO MY NEWS LETTER TO RECEIVE CONTENT ON BUILDING PRODUCTS PEOPLE LOVE.
         </Form.Text>
       <Form.Group className="mb-3" controlId="formBasicEmail">
