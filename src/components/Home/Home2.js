@@ -58,8 +58,8 @@ I also talk about Startups, Entrepreneurship and Business in my
             </Tilt>
           </Col>
         </Row>
-<h2>Subscribe to my weekly newsletter</h2>
-        <Row>
+<h2>Subscribe to my</h2>
+   
       
  <div id="revue-embed">
   <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
@@ -74,7 +74,7 @@ I also talk about Startups, Entrepreneurship and Business in my
  
   </form>
 </div>
-    </Row> 
+   
         
     
        
