@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I Talk About
-                <strong className="main-name">Coding, Business, and Startups.
+                <strong className="main-name"> Coding, Business, and Startups.
 </strong>
               </h1>
 

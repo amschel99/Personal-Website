@@ -33,7 +33,7 @@ function Home2() {
               <br />
               <br />
 I also talk about Startups, Entrepreneurship and Business in my 
-<span><a href="https://techlia.hashnode.dev">blog</a></span> &nbsp;
+<span><a href="https://techlia.hashnode.dev"> blog. </a></span> &nbsp;
               
               <br />
               <br />
