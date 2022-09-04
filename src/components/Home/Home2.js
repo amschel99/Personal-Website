@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col,Form,Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { Widget } from '@typeform/embed-react'
 import {
   AiFillGithub,
   AiOutlineTwitter
@@ -64,35 +65,8 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
 
 
          <Row>
-          <button data-tf-popup="LEXdgmKc" data-tf-iframe-props="title=Subscribe" data-tf-medium="snippet"
-        style={{
-           all:'unset','font-family':'Helvetica,Arial,sans-serif',
-           display:'inline-block',
-           'max-width':'100%',
-           'white-space':'nowrap',
-           'overflow':'hidden',
-           'text-overflow':'ellipsis',
-           'background-color':'#031737',
-
-           'color':'#FFFFFF',
-           'font-size':'20px',
-           'border-radius':'25px',
-           'padding':'0 33px',
-           'font-weight':'bold',
-
-           'height':'50px',
-           'cursor':'pointer',
-           'line-height':'50px',
-
-           'text-align':'center',
-           'margin':'0',
-           'text-decoration':'none',
-
-
-        }}
-        
-      >SUBSCRIBE
-        TO NEWSLETTER</button>
+         
+<Widget id="LEXdgmKc" style={{ width: '50%' }} className="my-form" />
         
     
          </Row>
