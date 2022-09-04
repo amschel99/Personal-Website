@@ -11,7 +11,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
-  const [value,setValue]=React.useState()
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -21,13 +21,7 @@ function Home2() {
          Are you struggling to build and market a <span className="purple">software product? </span>
             </h1>
             <p className="home-about-body">
-              Do you want to leverage the internet to market your product?
-               Your website is your first step!
-         But how do you make a website that is scalable, well branded and SEO optimized?
-         Well, you don't have to worry about those questions anymore.
-         I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort 
- required from you. At the end, you will get a highly scalable and profesionally built software.
- 
+            Do you want to leverage the internet to market your product? Your website is your first step! But how do you make a website that is scalable, well branded, and SEO optimized? Well, you don't have to worry about those questions anymore. I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort required from you. In the end, you will get highly scalable and professionally built software.
 
 
 
@@ -38,11 +32,13 @@ function Home2() {
               </i>
               <br />
               <br />
-I also talk about Startups,Entrepreneurship and Business in my <span><a href="https://techlia.hashnode.dev">blog</a></span> &nbsp;
+I also talk about Startups, Entrepreneurship and Business in my 
+<span><a href="https://techlia.hashnode.dev">blog</a></span> &nbsp;
               
               <br />
               <br />
-              I spend most of my time working with Javascript libraries,tools,runtimes and frameworks
+             spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
+
               like <b className="purple">Node.js</b> 
               <i>
                 <b className="purple">

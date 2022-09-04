@@ -22,7 +22,8 @@ function Home() {
 
               <h1 className="heading-name">
                 I Talk About
-                <strong className="main-name"> Coding, Business and Startups</strong>
+                <strong className="main-name">Coding, Business, and Startups.
+</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
