@@ -13,14 +13,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
 
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid classNameName="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} classNameName="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-         Are you struggling to build and market a <span className="purple">software product? </span>
+         Are you struggling to build and market a <span classNameName="purple">software product? </span>
             </h1>
-            <p className="home-about-body">
+            <p classNameName="home-about-body">
             Do you want to leverage the internet to market your product? Your website is your first step! But how do you make a website that is scalable, well branded, and SEO optimized? Well, you don't have to worry about those questions anymore. I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort required from you. In the end, you will get highly scalable and professionally built software.
 
 
@@ -28,7 +28,7 @@ function Home2() {
               <br />
               <br />I code in
               <i>
-                <b className="purple"> Javascript, Java, C++, and Python</b>
+                <b classNameName="purple"> Javascript, Java, C++, and Python</b>
               </i>
               <br />
               <br />
@@ -39,76 +39,84 @@ I also talk about Startups, Entrepreneurship and Business in my
               <br />
              spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
 
-              like <b className="purple">Node.js</b> 
+              like <b classNameName="purple">Node.js</b> 
               <i>
-                <b className="purple">
+                <b classNameName="purple">
                   {" "}
               Express JS
                 </b>
               </i>
               &nbsp;
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b classNameName="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} classNameName="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} classNameName="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
 
          
- <Form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-    
-      </Form.Group>
-
-      
-      <Button variant="primary" type="submit">
-      Subscribe
-      </Button>
-    </Form>
+ <div id="revue-embed">
+  <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <div className="revue-form-group">
+    <label for="member_email">Email address</label>
+    <input className="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
+  </div>
+  <div className="revue-form-group">
+    <label for="member_first_name">First name <span className="optional">(Optional)</span></label>
+    <input className="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name"/>
+  </div>
+  <div className="revue-form-group">
+    <label for="member_last_name">Last name <span className="optional">(Optional)</span></label>
+    <input className="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name"/>
+  </div>
+  <div className="revue-form-actions">
+    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit"/>
+  </div>
+ 
+  </form>
+</div>
         
     
        
         <Row>
         
-          <Col md={12} className="home-about-social">
+          <Col md={12} classNameName="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span classNameName="purple">connect </span>with me
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
+            <ul classNameName="home-about-social-links">
+              <li classNameName="social-icons">
                 <a
                   href="https://github.com/amschel99"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  classNameName="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              <li classNameName="social-icons">
                 <a
                   href="https://twitter.com/Blackprodigy7"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  classNameName="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li className="social-icons">
+              <li classNameName="social-icons">
                 <a
                   href="https://www.linkedin.com/in/amschel-kariuki-a83b9a230"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  classNameName="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
