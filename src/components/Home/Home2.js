@@ -66,7 +66,7 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
 
          <Row>
          
-<Widget id="LEXdgmKc" style={{ width: '100%' }} className="my-form" />
+<Widget id="LEXdgmKc" style={{ width: '100%', height:'150px' }} className="my-form" />
         
     
          </Row>
