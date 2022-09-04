@@ -58,28 +58,23 @@ I also talk about Startups, Entrepreneurship and Business in my
             </Tilt>
           </Col>
         </Row>
-
-         
+<h2>Subscribe to my weekly newsletter</h2>
+        <Row>
+      
  <div id="revue-embed">
   <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
   <div className="revue-form-group">
     <label for="member_email">Email address</label>
     <input className="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
   </div>
-  <div className="revue-form-group">
-    <label for="member_first_name">First name <span className="optional">(Optional)</span></label>
-    <input className="revue-form-field" placeholder="First name... (Optional)" type="text" name="member[first_name]" id="member_first_name"/>
-  </div>
-  <div className="revue-form-group">
-    <label for="member_last_name">Last name <span className="optional">(Optional)</span></label>
-    <input className="revue-form-field" placeholder="Last name... (Optional)" type="text" name="member[last_name]" id="member_last_name"/>
-  </div>
+  
   <div className="revue-form-actions">
     <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit"/>
   </div>
  
   </form>
 </div>
+    </Row> 
         
     
        
