@@ -59,7 +59,7 @@ I also talk about Startups, Entrepreneurship and Business in my
           </Col>
         </Row>
 
-         
+   <h2 className="home-about-social">Subscribe to my newsletter</h2>      
  <Row>
 <div id="revue-embed">
   <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
