@@ -62,11 +62,13 @@ I also talk about Startups,Entrepreneurship and Business in my <span><a href="ht
             </Tilt>
           </Col>
         </Row>
-
-  <h1>SUBSCRIBE TO 'HOW TO BUILD THE FUTURE' NEWSLETTER</h1>
+<Row>
+ <h1>SUBSCRIBE TO 'HOW TO BUILD THE FUTURE' NEWSLETTER</h1>
+</Row>
+ 
          <Row>
          
-<Widget id="LEXdgmKc" style={{ width: '100%', height:'150px' }} className="my-form" />
+<Widget id="LEXdgmKc" style={{ width: '100%' }} className="my-form" />
         
     
          </Row>
