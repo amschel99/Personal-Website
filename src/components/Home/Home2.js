@@ -65,7 +65,7 @@ I also talk about Startups, Entrepreneurship and Business in my
   <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
   <div class="revue-form-group" style={{marginBottom:'5px'}}>
     
-    <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
+    <input style={{outline:'none', border:'none'}} class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
   </div>
   
   <div class="revue-form-actions">
