@@ -13,14 +13,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 function Home2() {
 
   return (
-    <Container fluid classNameName="home-about-section" id="about">
+    <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} classNameName="home-about-description">
+          <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-         Are you struggling to build and market a <span classNameName="purple">software product? </span>
+         Are you struggling to build and market a <span className="purple">software product? </span>
             </h1>
-            <p classNameName="home-about-body">
+            <p className="home-about-body">
             Do you want to leverage the internet to market your product? Your website is your first step! But how do you make a website that is scalable, well branded, and SEO optimized? Well, you don't have to worry about those questions anymore. I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort required from you. In the end, you will get highly scalable and professionally built software.
 
 
@@ -28,7 +28,7 @@ function Home2() {
               <br />
               <br />I code in
               <i>
-                <b classNameName="purple"> Javascript, Java, C++, and Python</b>
+                <b className="purple"> Javascript, Java, C++, and Python</b>
               </i>
               <br />
               <br />
@@ -39,79 +39,65 @@ I also talk about Startups, Entrepreneurship and Business in my
               <br />
              spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
 
-              like <b classNameName="purple">Node.js</b> 
+              like <b className="purple">Node.js</b> 
               <i>
-                <b classNameName="purple">
+                <b className="purple">
                   {" "}
               Express JS
                 </b>
               </i>
               &nbsp;
               <i>
-                <b classNameName="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
-          <Col md={4} classNameName="myAvtar">
+          <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} classNameName="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
-<h2>Subscribe to my</h2>
-   
-      
- <div id="revue-embed">
-  <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-  <div className="revue-form-group">
-    <label for="member_email">Email address</label>
-    <input className="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
-  </div>
-  
-  <div className="revue-form-actions">
-    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit"/>
-  </div>
+
+         
  
-  </form>
-</div>
-   
         
     
        
         <Row>
         
-          <Col md={12} classNameName="home-about-social">
+          <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span classNameName="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>with me
             </p>
-            <ul classNameName="home-about-social-links">
-              <li classNameName="social-icons">
+            <ul className="home-about-social-links">
+              <li className="social-icons">
                 <a
                   href="https://github.com/amschel99"
                   target="_blank"
                   rel="noreferrer"
-                  classNameName="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              <li classNameName="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://twitter.com/Blackprodigy7"
                   target="_blank"
                   rel="noreferrer"
-                  classNameName="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
               </li>
-              <li classNameName="social-icons">
+              <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/amschel-kariuki-a83b9a230"
                   target="_blank"
                   rel="noreferrer"
-                  classNameName="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
