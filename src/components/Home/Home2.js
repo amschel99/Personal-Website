@@ -62,7 +62,7 @@ I also talk about Startups, Entrepreneurship and Business in my
    <h2 className="home-about-social">Subscribe to my newsletter</h2>      
  <Row>
 <div id="revue-embed">
-  <form action="https://www.getrevue.co/profile/amscheltech/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+  <form action="https://www.getrevue.co/profile/dawnofstartups/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
   <div class="revue-form-group" style={{marginBottom:'5px'}}>
     
     <input style={{outline:'none', border:'none'}} class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
