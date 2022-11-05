@@ -101,7 +101,7 @@ Check out my blogs on coding, entrepreneurship and startups on my
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Blackprodigy7"
+                  href="https://twitter.com/amscheltech"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
