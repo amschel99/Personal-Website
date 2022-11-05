@@ -18,17 +18,18 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-         Are you struggling to build and market a <span className="purple">software product? </span>
+      Do you want to build an efficient <span className="purple">web or mobile application?  </span>
             </h1>
             <p className="home-about-body">
-            Do you want to leverage the internet to market your product? Your website is your first step! But how do you make a website that is scalable, well branded, and SEO optimized? Well, you don't have to worry about those questions anymore. I'll take the weight of your project off your shoulders and handle it with expertise with little or no effort required from you. In the end, you will get highly scalable and professionally built software.
+           Are you looking for an expert developer who will work closely with you to get that project done? I will work with you right from the requirement gathering phase and  throughout the development to make sure you get a well built and scalable application.
+          I build efficient websites and cross platform apps using React JS,React Native and Node JS.
 
 
 
               <br />
-              <br />I code in
+              <br />I also do 
               <i>
-                <b className="purple"> Javascript, Java, C++, and Python</b>
+                <b className="purple">SEO consulting</b> to help businesses get  better indexing from search engines.
               </i>
               <br />
               <br />
