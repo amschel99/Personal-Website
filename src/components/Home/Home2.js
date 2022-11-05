@@ -29,16 +29,16 @@ function Home2() {
               <br />
               <br />I also do 
               <i>
-                <b className="purple">SEO consulting</b> to help businesses get  better indexing from search engines.
+                <b className="purple"> SEO consulting </b>  to help businesses get  better indexing from search engines.
               </i>
               <br />
               <br />
-I also talk about Startups, Entrepreneurship and Business in my 
-<span><a href="https://techlia.hashnode.dev"> blog. </a></span> &nbsp;
+Check out my blogs on coding, entrepreneurship and startups on my 
+<span><a href="https://techlia.hashnode.dev"> blog </a></span> &nbsp;
               
               <br />
               <br />
-             spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
+            I  spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
 
               like <b className="purple">Node.js</b> 
               <i>
