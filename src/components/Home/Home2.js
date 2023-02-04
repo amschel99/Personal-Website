@@ -18,27 +18,26 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-      Do you want to build an efficient <span className="purple">web or mobile application?  </span>
+      Hello<span className="purple">there  </span>
             </h1>
             <p className="home-about-body">
-           Are you looking for an expert developer who will work closely with you to get that project done? I will work with you right from the requirement gathering phase and  throughout the development to make sure you get a well built and scalable application.
-          I build efficient websites and cross platform apps using React JS,React Native and Node JS.
+            My expertise lies in building web apps using Node and React, and I also have a keen interest in 3D and AI. I'm passionate about programming and strive to stay up-to-date with the latest technology and trends in the software engineering industry. I'm always looking to expand my skillset and solve complex problems. I'm looking forward to collaborating with colleagues and creating innovative solutions.
 
 
 
               <br />
               <br />I also do 
               <i>
-                <b className="purple"> SEO consulting </b>  to help businesses get  better indexing from search engines.
+               
               </i>
               <br />
               <br />
-Check out my blogs on coding, entrepreneurship and startups on my 
+Check out my blog for my coding content
 <span><a href="https://techlia.hashnode.dev"> blog </a></span> &nbsp;
               
               <br />
               <br />
-            I  spend most of my time working with Javascript libraries, tools, runtimes, and frameworks like 
+            I  spend most of my time  dabbling with Javascript libraries, tools, runtimes, and frameworks like 
 
               like <b className="purple">Node.js</b> 
               <i>
