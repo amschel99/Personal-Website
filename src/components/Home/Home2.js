@@ -18,7 +18,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-      Hello<span className="purple">there  </span>
+      My <span className="purple"> Specializations  </span>
             </h1>
             <p className="home-about-body">
             My expertise lies in building web apps using Node and React, and I also have a keen interest in 3D and AI. I'm passionate about programming and strive to stay up-to-date with the latest technology and trends in the software engineering industry. I'm always looking to expand my skillset and solve complex problems. I'm looking forward to collaborating with colleagues and creating innovative solutions.
@@ -26,11 +26,7 @@ function Home2() {
 
 
               <br />
-              <br />I also do 
-              <i>
-               
-              </i>
-              <br />
+              
               <br />
 Check out my blog for my coding content
 <span><a href="https://techlia.hashnode.dev"> blog </a></span> &nbsp;
