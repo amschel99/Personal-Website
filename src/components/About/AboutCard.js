@@ -10,21 +10,21 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
    Hi, I'm <span className="purple">Amschel </span>from<span className="purple"> Nairobi, Kenya</span>
             <br />
-        I turn Ideas into products.
+      All things tech interest me
 
             <br />
             <br />
-Apart from coding, enjoy
+I enjoy,
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight />Watching Tv shows
+              <ImPointRight />Learning new tech
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Reading good books
+              <ImPointRight /> Reading books
             </li>
              <li className="about-activity">
               <ImPointRight /> Orgarnizing Tech Events
@@ -32,9 +32,9 @@ Apart from coding, enjoy
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to be 1% better everyday"{" "}
+            "For a bunch of hairless apes, we've actually managed to invent some pretty incredible things"{" "}
           </p>
-          <footer className="blockquote-footer">Atomic Habits</footer>
+          <footer className="blockquote-footer"> Ready player 1</footer>
         </blockquote>
       </Card.Body>
     </Card>
