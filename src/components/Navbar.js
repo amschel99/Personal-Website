@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -94,9 +95,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://techlia.hashnode.dev"
-                target="_blank"
-                rel="noreferrer"
+            as={Link}
+                to="/blog"
+                onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
