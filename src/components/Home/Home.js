@@ -21,8 +21,8 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'm a software engineer from Nairobi Kenya.
-                <strong className="main-name"> I create elegant and scalable business solutions
+               A software engineer from Nairobi Kenya.
+                <strong className="main-name"> I aim to push technological boundaries to empower businesses.
 </strong>
               </h1>
 

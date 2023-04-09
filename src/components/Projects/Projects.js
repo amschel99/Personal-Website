@@ -13,47 +13,36 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
+        <h4 style={{ fontFamily: 'Comic Sans MS', fontSize: '24px', color: 'orange', fontWeight: 'bold', textAlign: 'center' }}>
+  Disclaimer! These are not all my projects! These are the ones I'm proud of and found worthy of putting them here. I have done a lot of projects and if you are interested to see them, go to my GitHub which is 
+</h4>
+<a style={{ fontFamily: 'Comic Sans MS', fontSize: '24px', color: 'orange', fontWeight: 'bold', textAlign: 'center' }} href="https://github.com/amschel99">https://github.com/amschel99 </a>.
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+         Projects that I'm proud of <strong className="purple"> </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are my super cool projects!
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={jyd}
               isBlog={false}
-              title="Mota Auto"
-              description="A web application where sellers can list their cars and buyers can search for cars.Integrated with Azure blob storage for storing image files. Used Azure Cognitive Services to generate image thumbnails for load time optimization.Designed a REST API using Express that serves data to the application from Mongo Database.Used Docker to build an image for my Express API. Integrated The Daraja API and Paypal to receive payments through the platform.Integrated Mapbox API to render interactive maps for seller profiles. Utilized : Javascript,React,Node JS,Express JS,Microsoft Azure,Docker,Daraja API, MapBox."
-              ghLink="https://github.com/amschel99/mota"
-              demoLink="https://motaauto.live"
+              title="Veestream"
+              description="
+              A file management API for     efficient file management, such as seamless uploading, downloading and sharing through streamlined development process.
+              This API can be used to build video on demand applications, ecommerce applications that need a file management solution to store product images and videos, social media apps, e-learning applications and file sharing applications.
+              The API is published on rapidapi and some companies are using it to streamline file management in their applications.
+              This is built using Node JS, MongoDB, Microsoft Azure, Nginx and FFMPEG.
+              "
+              ghLink="https://github.com/amschel99/veestreamApi"
+              demoLink="https://veestream.tech"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chess}
-              isBlog={false}
-              title="AI powered chat bot"
-              description="Utilized Open AI’s text completion API and the whatsapp-web.js library to build an interactive bot that can respond intelligently to user
-              queries.Incorporated MongoDb for data storage to give the bot the context of the conversation.Deployed the application using Docker."
-              ghLink="https://github.com/amschel99/chatAi-Whatsapp"
-              
-            />
-          </Col>
+        
       
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tasks}
-              isBlog={false}
-              title="Code Topia "
-              description="A web based application for students to learn programming in a game-like environment.Integrated in-platform video,audio and text communication using WEBRTC and websockets.Used three js for Game-like interface and overall aesthetic.Incorporated azure blob storage for storing files.Utilized: Node js, Express js, Next js,WEBRTC,Websockets,Microsoft Azure, three.js"
-              ghLink="https://github.com/amschel99/codeTopia"
-              
-            />
-          </Col>
 
          
         </Row>
