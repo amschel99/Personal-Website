@@ -38,10 +38,11 @@ const Blog = () => {
         <Row xs={1} sm={2} md={3} lg={4}>
           {data.user.publication.posts.map((post) => (
             <Col style={{marginTop:"5px", marginBottom:'5px'}} key={post._id}>
-              <Link to={`/single-blog/${post._id}`}>
+              <Link  style={{textDecoration:"none"}} to={`/single-blog/${post._id}`}>
               <Card
                 className="h-100"
                 style={{
+                  textDecoration:"none",
                   backgroundColor: 'rgba(12, 8, 24, 0.904)',
                   border: 'none',
                   borderRadius: '1rem',
