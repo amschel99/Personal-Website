@@ -3,28 +3,34 @@ import { useQuery, gql } from '@apollo/client';
 import { useParams } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import {marked} from 'marked';
+import DOMPurify from 'dompurify';
+import ReactMarkdown from 'react-markdown';
 
 // Set options for marked library
 
-const QUERY_ALL_POSTS = gql`
-  query {
-    user(username: "amschell") {
-      publication {
-        posts {
-          _id
-          title
-          slug
-          dateAdded
-          contentMarkdown
-        }
-      }
-    }
-  }
+const SINGLE_POST= gql`
+query($slug:String!, $hostname:String!){
+   post(slug: $slug, hostname:$hostname ){
+     _id
+     content
+     slug
+     title
+     dateAdded
+     reactions {
+       count
+     }
+   }
+}
 `;
 
 const SingleBlog = () => {
-  const { data, loading, error } = useQuery(QUERY_ALL_POSTS);
+
+
   const { id } = useParams();
+
+  const { loading, error, data } = useQuery(SINGLE_POST, {
+    variables: { slug:id, hostname: "amschel" },
+  });
 
   if (error) {
     return <h4 style={{ color: 'white' }}>Error....</h4>;
@@ -35,15 +41,7 @@ const SingleBlog = () => {
   }
 
   if (data) {
-    const posts = data.user.publication.posts;
-
-    const post = posts.find((p) => p._id === id);
-
-    if (!post) {
-      return <p style={{ color: 'white' }}>Post not found</p>;
-    }
-
-    const htmlContent = marked(post.contentMarkdown);
+ 
 
     return (
       <div style={{ marginTop: '100px' }}>
@@ -66,16 +64,15 @@ const SingleBlog = () => {
                 textShadow: '2px 2px 0px rgba(255, 255, 255, 0.5)',
               }}
             >
-              {post.title}
+              {data.post.title}
             </Card.Title>
-            <div
-              style={{
-                marginTop: '100px',
-                color: 'white',
-                padding: '1rem',
-              }}
-              dangerouslySetInnerHTML={{ __html: htmlContent }}
-            />
+          
+<div style={{ color: "white" }} dangerouslySetInnerHTML={{ __html: data.post.content }}/>
+
+
+
+
+
           </Card.Body>
           <Card.Footer
             style={{
@@ -92,12 +89,12 @@ const SingleBlog = () => {
             }}
           >
             <small style={{ fontSize: '1rem' }}>
-              {new Date(post.dateAdded).toLocaleDateString()}
+              {new Date(data.post.dateAdded).toLocaleDateString()}
             </small>
             <span className="mx-2" style={{ color: '#F6D186' }}>
-              •
+              
             </span>
-            <small style={{ color: '#F6D186' }}>{post.slug}</small>
+            <small style={{ color: '#F6D186' }}>{data.post.slug}</small>
           </Card.Footer>
         </Card>
       </div>

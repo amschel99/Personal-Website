@@ -4,7 +4,7 @@ import { Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 const QUERY_ALL_POSTS = gql`
   query {
-    user(username: "amschell") {
+    user(username: "amschel") {
       publication {
         posts {
           _id
@@ -38,7 +38,7 @@ const Blog = () => {
         <Row xs={1} sm={2} md={3} lg={4}>
           {data.user.publication.posts.map((post) => (
             <Col style={{marginTop:"5px", marginBottom:'5px'}} key={post._id}>
-              <Link  style={{textDecoration:"none"}} to={`/single-blog/${post._id}`}>
+              <Link  style={{textDecoration:"none"}} to={`/single-blog/${post.slug}`}>
               <Card
                 className="h-100"
                 style={{
