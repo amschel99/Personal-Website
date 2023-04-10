@@ -2,6 +2,7 @@ import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import { Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import Pre from './Pre';
 const QUERY_ALL_POSTS = gql`
   query {
     user(username: "amschel") {
@@ -29,7 +30,7 @@ const Blog = () => {
   }
 
   if (loading) {
-    return <h5>Loading...</h5>;
+    return <Pre/>;
   }
 
   if (data) {

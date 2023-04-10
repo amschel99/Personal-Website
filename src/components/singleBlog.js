@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import ReactMarkdown from 'react-markdown';
-
+import Pre from './Pre';
 // Set options for marked library
 
 const SINGLE_POST= gql`
@@ -37,7 +37,7 @@ const SingleBlog = () => {
   }
 
   if (loading) {
-    return <h5 style={{ color: 'white' }}>Loading...</h5>;
+    return <Pre/>
   }
 
   if (data) {

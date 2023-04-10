@@ -17,18 +17,19 @@ function Home2() {
       <Container style={{marginBottom:"10px"}}>
         <Row>
           <Col md={8} classNameName="home-about-description">
-          <h1 style={{ 
-  fontSize: "2.6em",
+          <p style={{ 
+  fontSize: "1.2em",
   fontFamily: "Roboto Mono, monospace",
   fontWeight: "bold",
   letterSpacing: "2px",
+  marginTop:'5px',
   color: "#fff",
   textTransform: "uppercase",
   marginBottom: "20px",
   textAlign: "center"
 }}>
   My <span style={{ color: "#b38bff" }}>Specializations</span>
-</h1>
+</p>
 <p style={{ 
   fontFamily: "Montserrat, sans-serif",
   fontSize: "18px",
