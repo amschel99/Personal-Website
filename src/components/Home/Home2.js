@@ -70,12 +70,14 @@ function Home2() {
   boxShadow: '0 0 20px rgba(0, 255, 234, 0.5)',
   textAlign: 'center'
 }}>
-  Listen up, all you tech-savvy, entrepreneurial, bookworm, startup enthusiasts out there! 
-  <br/>If you're a fan of <span style={{color: '#e0ff00', textShadow: '0 0 10px #e0ff00'}}>mind-bending sci-fi,</span> 
-  <span style={{color: '#ff00d4', textShadow: '0 0 10px #ff00d4'}}>mind-expanding science,</span> 
-  <span style={{color: '#00d4ff', textShadow: '0 0 10px #00d4ff'}}>and mind-blowing philosophy,</span> 
-  <br/>then you absolutely have to get in on the action of my newsletter. 
-  <br/>Stay ahead of the curve and never miss out on a single word I write about these electrifying topics.
+Over the past three months, I have successfully generated $1000 online by developing and selling digital products. At first, I struggled with how to translate my technical skills into financial gain, but I soon came to realize that technical expertise alone is not enough. In order to succeed in today's rapidly-evolving digital landscape, one must possess a diverse set of skills and knowledge.
+
+  <br/>As a developer, you undoubtedly possess the technical skills required to build and create incredible products, but do you have the necessary knowledge to capitalize on the limitless opportunities that exist within the industry? Do you know how to build a successful SAAS, or how to monetize your open-source projects? These are just a few examples of the valuable knowledge that can make all the difference when it comes to transforming your skills into a thriving business.
+  <br/>That's why I've decided to launch a newsletter that aims to help passionate developers like yourself turn their skills into a lucrative career. Through my newsletter, I will share valuable insights and resources that will equip you with the knowledge and skills necessary to make the most of your technical expertise in this ever-changing field.
+
+Each issue of my newsletter will feature practical tips and tricks, informative articles, and news on the latest trends and developments within the industry. Whether you're a seasoned developer or just starting out, my newsletter is the perfect resource to help you take your career to the next level.
+
+If you're interested in subscribing to my newsletter and taking your career to new heights, please sign up below. Let's work together to make the most out of your skills and achieve your goals!
 </h2>
 
     

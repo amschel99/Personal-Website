@@ -33,13 +33,13 @@ function AboutCard() {
               <ImPointRight />Exploring the latest breakthroughs in AI and machine learning
             </li>
             <li className="about-activity">
-              <ImPointRight />Building and programming robots
+              <ImPointRight />Building server side applications with Node js and Rust
             </li>
             <li className="about-activity">
-              <ImPointRight />Designing and creating virtual worlds and interactive experiences
+              <ImPointRight />Building cool tech products that solve real problems and monetizing them.
             </li>
             <li className="about-activity">
-              <ImPointRight />Experimenting with futuristic materials and 3D printing technologies
+              <ImPointRight />Helping out buddies with their technical projects or mentorship on how to market their saas products.
             </li>
           </ul>
        
