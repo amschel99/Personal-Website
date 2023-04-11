@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function Footer() {
   let date = new Date();
@@ -15,10 +16,11 @@ function Footer() {
       <Row>
         <Col md="4" className="footer-copywright">
           <h3>Developed by Amschel</h3>
-          <p>Inspired Soumyajit Behera</p>
+   
     
         </Col>
         <Col md="4" className="footer-copywright">
+        <Link to='/tos'>Terms of service and privacy policy</Link>
           <h3>Copyright © {year} Amschel</h3>
         </Col>
         <Col md="4" className="footer-body">
