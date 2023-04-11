@@ -30,7 +30,7 @@ const TOS = () => {
 <p>We may use cookies and similar technologies to collect information about how you use our website and to personalize your experience. You may disable cookies in your browser settings, but this may limit your ability to use certain features of our website.</p>
 <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites. We encourage you to review the privacy policies of these websites before providing them with any personal data.</p>
 <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on our website. Your continued use of our website after the changes have been made will signify your acceptance of the updated Privacy Policy.</p>
-<p>If you have any questions or concerns about this Privacy Policy or our handling of your personal data, please contact us at support@eestream.tech.</p>
+<p>If you have any questions or concerns about this Privacy Policy or our handling of your personal data, please contact us at support@veestream.tech.</p>
 </Col>
 </Row>
 </Container>
