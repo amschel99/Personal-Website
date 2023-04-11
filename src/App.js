@@ -43,7 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/blog" element={<Blog/>}/>
-          <Route path="/tos" element={<Tos/>}/>
+          <Route path="/tos" element={<TOS/>}/>
           <Route path="/single-blog/:id" element={<SingleBlog/>}/>
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
