@@ -58,7 +58,7 @@ function Home2() {
 
 <p style={{
   fontFamily: 'Roboto Mono, monospace',
-  fontSize: '28px',
+  fontSize: '14px',
   fontWeight: 'bold',
   letterSpacing: '2px',
   color: '#00ffea',
