@@ -3,6 +3,7 @@ import { Container, Row, Col,Form,Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { Widget } from '@typeform/embed-react'
+import MailchimpForm from "../Mailchimp";
 import {
   AiFillGithub,
   AiOutlineTwitter
@@ -79,50 +80,40 @@ function Home2() {
 
     
  <Row style={{marginBottom:'10px'}}>
-<div id="revue-embed">
-  <form action="https://www.getrevue.co/profile/dawnofstartups/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-  <div className="revue-form-group" style={{marginBottom:'5px'}}>
-  <input style={{
-    fontFamily: 'Roboto Mono, monospace',
-    fontSize: '18px',
-    fontWeight: 'bold',
-    letterSpacing: '1px',
-    color: '#00ffea',
-    textTransform: 'uppercase',
-    backgroundColor: '#151515',
-    padding: '15px',
-    borderRadius: '10px',
-    boxShadow: '0 0 20px rgba(0, 255, 234, 0.5)',
-    outline: 'none',
-    border: 'none',
-    width: '100%'
-  }} className="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email"/>
-</div>
-  
-<div className="revue-form-actions" style={{
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  marginTop: '30px'
-}}>
-  <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" style={{
-    fontFamily: 'Roboto Mono, monospace',
-    fontSize: '18px',
-    fontWeight: 'bold',
-    letterSpacing: '1px',
-    color: '#00ffea',
-    backgroundColor: '#151515',
-    border: 'none',
-    padding: '10px 30px',
-    borderRadius: '50px',
-    boxShadow: '0 0 20px rgba(0, 255, 234, 0.5)',
-    cursor: 'pointer',
-    transition: 'all 0.3s ease-in-out',
-    textTransform: 'uppercase',
-    textShadow: '0 0 10px #00ffea'
-  }}/>
-</div>
-
+ <div id="mc_embed_signup" style={{ background: "rgba(12, 8, 24, 0.904)", color: "#fff", padding: "20px", width:'100%' }}>
+  <form
+    action="https://tech.us9.list-manage.com/subscribe/post?u=19ab3433c4d8fab33df9052d2&amp;id=3af49055ee&amp;f_id=002f22e1f0"
+    method="post"
+    id="mc-embedded-subscribe-form"
+    name="mc-embedded-subscribe-form"
+    className="validate"
+    target="_blank"
+    noValidate
+  >
+    <div id="mc_embed_signup_scroll">
+      <div className="mc-field-group" style={{ marginBottom: "10px" }}>
+        <input
+          type="email"
+          defaultValue=""
+          placeholder="Enter your email adress"
+          name="EMAIL"
+          className="required email"
+          id="mce-EMAIL"
+          required
+          style={{  '::placeholder': { 
+      color: '#00ffea' 
+    } ,color:"#00ffea", padding: "10px", marginRight: "20px", borderRadius: "5px", border: "none", background: "#555"}}
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          name="subscribe"
+          id="mc-embedded-subscribe"
+          className="button"
+          style={{borderRadius: "5px", border: "none", background: "black", color: "#fff", cursor: "pointer" , marginTop:"15px", fontSize:"20px", height:'50px'}}
+        />
+      </div>
+    </div>
   </form>
 </div>
 
