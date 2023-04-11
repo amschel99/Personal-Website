@@ -56,7 +56,7 @@ function Home2() {
           </Col>
         </Row>
 
-<h2 style={{
+<p style={{
   fontFamily: 'Roboto Mono, monospace',
   fontSize: '28px',
   fontWeight: 'bold',
@@ -74,7 +74,7 @@ function Home2() {
 Are you a skilled developer struggling to turn your expertise into financial gain? It's not just technical skills you need to succeed in the rapidly-evolving digital landscape. With my newsletter, you'll gain valuable knowledge on how to build a successful SAAS, monetize open-source projects, and much more. Each issue features practical tips and informative articles to help you take your career to the next level. Don't miss out on this opportunity to transform your skills into a thriving business. Subscribe now and let's achieve your goals together.
  
 
-</h2>
+</p>
 
     
  <Row style={{marginBottom:'10px'}}>
