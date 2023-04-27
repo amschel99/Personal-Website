@@ -45,9 +45,11 @@ function Home() {
                 <Type />
               
               </div>
-<Link to="https://youtube.com/@llwamschel"><Button style={buttonStyle}>
-      Take me to the youtube channel
-    </Button></Link>
+<Link to="https://youtube.com/@llwamschel">
+  <Button style={buttonStyle}>
+      Take me to LLW Amschel youtube channel
+    </Button>
+</Link>
  
             </Col>
 
