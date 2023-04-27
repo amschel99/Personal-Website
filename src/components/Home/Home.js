@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function Home() {
   const buttonStyle = {
@@ -42,10 +43,12 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-                 <Button style={buttonStyle}>
-      Take me to the youtube channel
-    </Button>
+              
               </div>
+<Link to="https://youtube.com/@llwamschel"><Button style={buttonStyle}>
+      Take me to the youtube channel
+    </Button></Link>
+ 
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
