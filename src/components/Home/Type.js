@@ -11,8 +11,9 @@ function Type() {
           "Networking",
     "Node.js",
     "Rust",
-    "Linux"
-         
+    "Linux",
+    "Web security",
+    "DevOps"         
         ],
         autoStart: true,
         loop: true,
