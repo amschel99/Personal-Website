@@ -29,7 +29,7 @@ function Home2() {
   marginBottom: "20px",
   textAlign: "center"
 }}>
-  My <span style={{ color: "#b38bff" }}>Specializations</span>
+  Welcome <span style={{ color: "#b38bff" }}>to Low Level With Amschel!</span>
 </p>
 <p style={{ 
   fontFamily: "Montserrat, sans-serif",
@@ -40,20 +40,14 @@ function Home2() {
   maxWidth: "800px",
   margin: "0 auto"
 }}>
-  I'm a full-stack developer with a diverse technical skill set and a deep understanding of backend technologies, databases and cloud architecture. I've also honed my proficiency in frontend development using React.js. As a lifelong learner and avid computer science student, I'm always exploring new technologies and techniques to improve the development process and drive business success. With experience in DevOps practices and a strong background in QA testing, I ensure high-quality deliverables that exceed customer expectations. My passion for programming began with my studies in computer science, where I delved into topics ranging from algorithms and data structures to computer architecture and automata theory. I'm constantly building upon that knowledge and applying it to real-world projects. I believe that the key to success in software development lies in a combination of technical expertise and a willingness to embrace change and adapt to new challenges. That's why I approach every project with an open mind and a focus on continuous improvement.
+  Lets delve into the technical intricacies of software engineering. From optimizing code and debugging systems to building robust networks and scaling infrastructure, there's always something new to learn and explore here.
   <br />
-  <br />
-  I'm also the creator of <span style={{ color: "#b38bff" }}>veestream</span>, a software product for efficient file management, such as seamless uploading, downloading and sharing through streamlined development process. <a style={{textDecoration: "none", color: "yellow"}} href="https://veestream.tech">Visit veestream</a>
-  <br />
+ 
   <br />
 </p>
 
           </Col>
-          <Col md={4} classNameName="myAvtar">
-            <Tilt>
-              <img src={myImg} classNameName="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
+          
         </Row>
 
 <p style={{
@@ -71,7 +65,7 @@ function Home2() {
   textAlign: 'center'
 }}>
 
-Are you a skilled developer struggling to turn your expertise into financial gain? It's not just technical skills you need to succeed in the rapidly-evolving digital landscape. With my newsletter, you'll gain valuable knowledge on how to build a successful SAAS, monetize open-source projects, and much more. Each issue features practical tips and informative articles to help you take your career to the next level. Don't miss out on this opportunity to transform your skills into a thriving business. Subscribe now and let's achieve your goals together.
+Want to stay in the know about all things low-level tech? Our newsletter has got you covered! We scour the web for the latest news, trends, and tutorials, so you don't have to. Plus, subscribers get exclusive access to special offers and events. Join our community of tech enthusiasts and never miss a beat. Sign up now!
  
 
 </p>
@@ -138,7 +132,7 @@ Are you a skilled developer struggling to turn your expertise into financial gai
               color: '#00ffea',
               textTransform: 'uppercase',
               marginBottom: '20px'
-            }}>FIND ME ON</h1>
+            }}>Find Amschel On</h1>
             <p style={{
               fontFamily: 'Roboto, sans-serif',
               fontSize: '18px',
