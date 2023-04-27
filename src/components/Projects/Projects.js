@@ -13,27 +13,19 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h4 style={{ fontFamily: 'Comic Sans MS', fontSize: '24px', color: 'orange', fontWeight: 'bold', textAlign: 'center' }}>
-  Disclaimer! These are not all my projects! These are the ones I'm proud of and found worthy of putting them here. I have done a lot of projects and if you are interested to see them, go to my GitHub which is 
-</h4>
-<a style={{ fontFamily: 'Comic Sans MS', fontSize: '24px', color: 'orange', fontWeight: 'bold', textAlign: 'center' }} href="https://github.com/amschel99">https://github.com/amschel99 </a>.
-        <h1 className="project-heading">
-         Projects that I'm proud of <strong className="purple"> </strong>
-        </h1>
+        
         <p style={{ color: "white" }}>
-          Here are my super cool projects!
+          Here are some of the things I've built.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jyd}
+              imgPath="https://media.licdn.com/dms/image/D4D0BAQE6EXYyFpfSJQ/company-logo_100_100/0/1682578876027?e=1690416000&v=beta&t=b4e6HIsXlcobD703ERDSJPOH0JM0btgeJu9agtX4byo"
+
               isBlog={false}
               title="Veestream"
               description="
-              A file management API for     efficient file management, such as seamless uploading, downloading and sharing through streamlined development process.
-              This API can be used to build video on demand applications, ecommerce applications that need a file management solution to store product images and videos, social media apps, e-learning applications and file sharing applications.
-              The API is published on rapidapi and some companies are using it to streamline file management in their applications.
-              This is built using Node JS, MongoDB, Microsoft Azure, Nginx and FFMPEG.
+          Veestream is built for developers and it offers an efficient way to handle files when building web applications that require file management. It offers a set of versatile features that can be used to build highly efficient file management work flows and Video/Audio on demand applications. 
               "
               ghLink="https://github.com/amschel99/veestreamApi"
               demoLink="https://veestream.tech"
