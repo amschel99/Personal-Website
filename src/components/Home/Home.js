@@ -4,8 +4,26 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import { Button } from "react-bootstrap";
 
 function Home() {
+  const buttonStyle = {
+  background: "#FF0000",
+  border: "none",
+  color: "#FFFFFF",
+  fontWeight: "bold",
+  padding: "10px 20px",
+  borderRadius: "5px",
+  cursor: "pointer",
+  transition: "background-color 0.3s ease",
+  boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.25)",
+  margin: "10px",
+  fontSize: "16px",
+  lineHeight: "1.5",
+  width: "100%",
+  maxWidth: "400px",
+};
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -24,6 +42,9 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
+                 <Button style={buttonStyle}>
+      Take me to the youtube channel
+    </Button>
               </div>
             </Col>
 
