@@ -45,7 +45,7 @@ function Home() {
                 <Type />
               
               </div>
-<a href="https://youtube.com/@llwamschel>
+<a href="https://youtube.com/@llwamschel">
   <Button style={buttonStyle}>
       Take me to the Youtube channel
     </Button>
