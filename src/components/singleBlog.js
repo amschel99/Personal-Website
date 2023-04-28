@@ -38,7 +38,7 @@ const SingleBlog = () => {
   }
 
   if (loading) {
-    return <Pre/>
+      return <div id="preloader" ></div>
   }
 
   if (data) {
