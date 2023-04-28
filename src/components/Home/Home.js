@@ -47,7 +47,7 @@ function Home() {
               
               </div>
 
-  <Button href="https://www.example.com" target="_blank" style={buttonStyle} as="a" variant="primary">
+  <Button href="https://www.example.com" target="_blank" style={buttonStyle} >
     Take me to the Youtube channel
   </Button>
 
