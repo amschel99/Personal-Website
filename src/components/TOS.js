@@ -10,7 +10,7 @@ const TOS = () => {
             <h1 style={{ textAlign: 'center', margin: '2rem 0' }}>Terms of Service</h1>
             <p>Welcome! By accessing or using our website, you agree to these Terms of Service ("Terms"), so please read them carefully. If you don't agree to these Terms, you may not use our website.</p>
             <p>You may use our website for personal and non-commercial purposes only. You may not use our website for any illegal or unauthorized purpose.</p>
-            <p>All content on our website, including text, graphics, logos, images, and software, is the property of [Your Website Name] or its licensors and is protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or otherwise use our content without our prior written permission.</p>
+            <p>All content on our website, including text, graphics, logos, images, and software, is the property of Amschel or its licensors and is protected by applicable intellectual property laws. You may not reproduce, distribute, modify, or otherwise use our content without our prior written permission.</p>
             <p>Our website may contain affiliate links and ads. We may earn a commission if you click on an affiliate link or interact with an ad. We are not responsible for the products or services offered by third-party websites or advertisers.</p>
             <p>We may share our personal projects on our website. You may not reproduce, distribute, modify, or otherwise use our personal projects without our prior written permission.</p>
             <p>We provide our website on an "as is" and "as available" basis. We make no warranties or representations of any kind, whether express, implied, or statutory, regarding our website or the content therein.</p>
@@ -30,7 +30,7 @@ const TOS = () => {
 <p>We may use cookies and similar technologies to collect information about how you use our website and to personalize your experience. You may disable cookies in your browser settings, but this may limit your ability to use certain features of our website.</p>
 <p>Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these websites. We encourage you to review the privacy policies of these websites before providing them with any personal data.</p>
 <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by posting the new Privacy Policy on our website. Your continued use of our website after the changes have been made will signify your acceptance of the updated Privacy Policy.</p>
-<p>If you have any questions or concerns about this Privacy Policy or our handling of your personal data, please contact us at support@veestream.tech.</p>
+<p>If you have any questions or concerns about this Privacy Policy or our handling of your personal data, please contact us!</p>
 </Col>
 </Row>
 </Container>
