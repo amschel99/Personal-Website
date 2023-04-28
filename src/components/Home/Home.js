@@ -62,12 +62,14 @@ function Home() {
           </Row>
         </Container>
       </Container>
+<div style={{marginY:"50px"}}>
 <a href="https://youtube.com/@llwamschel" target="_blank">
 
-  <button  style={buttonStyle} >
+  <Button  style={buttonStyle} >
     Take me to the Youtube channel
-  </button>
+  </Button>
 </a>
+</div>
       <Home2 />
     </section>
   );
