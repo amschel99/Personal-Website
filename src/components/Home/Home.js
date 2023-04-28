@@ -47,9 +47,9 @@ function Home() {
               
               </div>
 <a href="https://youtube.com/@llwamschel">
-  <Button style={buttonStyle}>
-      Take me to the Youtube channel
-    </Button>
+  <Button style={buttonStyle} as="a" variant="primary">
+    Take me to the Youtube channel
+  </Button>
 </a>
 
  
