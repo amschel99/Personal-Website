@@ -21,7 +21,8 @@ function Home() {
   margin: "10px",
   fontSize: "16px",
   lineHeight: "1.5",
-  width: "100%",
+  width: "70%",
+    marginX:"30%",
   maxWidth: "400px",
 };
 
