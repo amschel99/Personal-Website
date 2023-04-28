@@ -46,11 +46,12 @@ function Home() {
                 <Type />
               
               </div>
+<a href="https://youtube.com/@llwamschel" target="_blank">
 
-  <Button href="https://www.example.com" target="_blank" style={buttonStyle} >
+  <button  style={buttonStyle} >
     Take me to the Youtube channel
-  </Button>
-
+  </button>
+</a>
 
  
             </Col>
