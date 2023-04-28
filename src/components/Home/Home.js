@@ -46,12 +46,7 @@ function Home() {
                 <Type />
               
               </div>
-<a href="https://youtube.com/@llwamschel" target="_blank">
 
-  <button  style={buttonStyle} >
-    Take me to the Youtube channel
-  </button>
-</a>
 
  
             </Col>
@@ -67,6 +62,12 @@ function Home() {
           </Row>
         </Container>
       </Container>
+<a href="https://youtube.com/@llwamschel" target="_blank">
+
+  <button  style={buttonStyle} >
+    Take me to the Youtube channel
+  </button>
+</a>
       <Home2 />
     </section>
   );
