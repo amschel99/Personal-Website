@@ -40,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-       <h4>LLW Amschel</h4>
+       <h4>Amschel Kariuki</h4>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -66,7 +66,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About Amschel
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> About me
               </Nav.Link>
             </Nav.Item>
 
@@ -79,7 +79,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Products by Amschel
+               Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -99,7 +99,7 @@ function NavBar() {
                 to="/blog"
                 onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Articles
               </Nav.Link>
             </Nav.Item>
 

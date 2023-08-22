@@ -7,7 +7,7 @@ import DOMPurify from 'dompurify';
 import ReactMarkdown from 'react-markdown';
 import { Container, Row, Col,Form,Button } from "react-bootstrap";
 
-// Set options for marked library
+
 
 const SINGLE_POST= gql`
 query($slug:String!, $hostname:String!){
@@ -39,19 +39,19 @@ const SingleBlog = () => {
   }
 
   if (loading) {
-      return <div  >still loading...</div>
+    return <div id="preloader" ></div>
   }
 
   if (data) {
  
 
     return (
-      <div style={{ marginTop: '0px' }}>
+      <div style={{ marginTop: '10px' }}>
         <Card
           style={{
             backgroundColor: 'white',
             border: 'none',
-            marginBottom:"20px"
+            marginBottom:"0px"
            
           }}
         >
@@ -88,7 +88,7 @@ const SingleBlog = () => {
 
 
 
-return <p style={{ color: '#F6D186' }}>Something went wrong</p>;
+return <p style={{ color: '#F6D186' }}>Something went wrong and the article could not be fetched</p>;
 };
 
 export default SingleBlog;

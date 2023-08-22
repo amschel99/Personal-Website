@@ -8,9 +8,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0" style={{color: "white"}}>
         <p style={{ textAlign: "justify" }}>
-        <span style={{ fontFamily: 'Roboto', fontSize: '20px', fontWeight: 'bold', color: '#FF6B6B' }}> I am Amschel,</span>
-      <span style={{ fontFamily: 'Montserrat', fontSize: '18px', color: '#BFBFBF', fontStyle: 'italic' }}> from </span>
-      <span style={{ fontFamily: 'Montserrat', fontSize: '18px', color: '#BFBFBF', fontStyle: 'italic' }}>Nairobi, Kenya</span>
+        <span style={{ fontFamily: 'Roboto', fontSize: '20px', fontWeight: 'bold', color: '#FF6B6B' }}> I am striving to be Stephen Levy's definition of a hacker.</span>
+ 
       <span style={{ 
   display: 'inline-block',
   width: '30px',
@@ -26,35 +25,15 @@ function AboutCard() {
 
             <br />
             <br />
-            I'm fascinated by technology and its endless possibilities. Here are some of my favorite tech-related hobbies:
+            To me, hackers are the greatest of individualists. They are people who dare to be different, but who have the integrity not to play games with what they do, no matter what the consequences might be.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight />Exploring the latest breakthroughs in AI and machine learning
-            </li>
-            <li className="about-activity">
-              <ImPointRight />Building server side applications with Node js and Rust
-            </li>
-            <li className="about-activity">
-              <ImPointRight />Building cool tech products that solve real problems and monetizing them.
-            </li>
-            <li className="about-activity">
-              <ImPointRight />Helping out buddies with their technical projects or mentorship on how to market their saas products.
-            </li>
-          </ul>
+         
        
           <p style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>
-            "For a bunch of hairless apes, we've actually managed to invent some pretty incredible things."{" "}
+            "The process of preparing programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music"{" "}
           </p>
-          <footer className="blockquote-footer" style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>Ready Player One</footer>
-          <p style={{ color: "rgb(155, 126, 172)", fontStyle: "italic", marginTop: "2rem" }}>
-            "The future is already here — it's just not very evenly distributed."{" "}
-          </p>
-          <footer className="blockquote-footer" style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>William Gibson</footer>
-          <p style={{ color: "rgb(155, 126, 172)", fontStyle: "italic", marginTop: "2rem" }}>
-            "Any sufficiently advanced technology is indistinguishable from magic."{" "}
-          </p>
-          <footer className="blockquote-footer" style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>Arthur C. Clarke</footer>
+          <footer className="blockquote-footer" style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>Donald Knuth</footer>
+        
         </blockquote>
       </Card.Body>
     </Card>

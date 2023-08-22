@@ -15,12 +15,12 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by Amschel</h3>
+          <h3>Built by Amschel</h3>
    
     
         </Col>
         <Col md="4" className="footer-copywright">
-        <Link to='/tos'>Terms of service and privacy policy</Link>
+   
           <h3>Copyright © {year} Amschel</h3>
         </Col>
         <Col md="4" className="footer-body">

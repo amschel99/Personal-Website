@@ -87,28 +87,7 @@ const Blog = () => {
                     {post.brief.substring(0, 150) + '...'}
                   </Card.Text>
                 </Card.Body>
-                <Card.Footer
-                  style={{
-                    backgroundColor: 'rgba(17, 16, 16, 0.582)',
-                    borderTop: 'none',
-                    borderRadius: '0 0 1rem 1rem',
-                    color: '#F6D186',
-                    fontFamily: 'Carter One, sans-serif',
-                    fontSize: '1rem',
-                    opacity: '0.7',
-                    padding: '1rem',
-                    textAlign: 'center',
-                    textShadow: '1px 1px #000',
-                  }}
-                >
-                  <small>
-                    {new Date(post.dateAdded).toLocaleDateString()}
-                  </small>
-                  <span className="mx-2">•</span>
-                  <small>{post.slug}</small>
-                  <span className="mx-2">•</span>
-                  <small>{post.responseCount} responses</small>
-                </Card.Footer>
+                
               
               </Card>
               </Link>
@@ -121,7 +100,7 @@ const Blog = () => {
 
 
 
-  return <p>Something went wrong</p>;
+  return <p>Something went wrong and articles could not be loaded</p>;
 };
 
 export default Blog;

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+
 import Type from "./Type";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -36,7 +36,7 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
             
                 <span className="wave" role="img" aria-labelledby="wave">
-                  Welcome to LLW Amschel!
+                 Hello, I'm Amschel Kariuki
                 </span>
               </h1>
 
@@ -62,15 +62,8 @@ function Home() {
           </Row>
         </Container>
       </Container>
-<div style={{marginY:"50px"}}>
-<a href="https://youtube.com/@llwamschel" target="_blank">
 
-  <Button  style={buttonStyle} >
-    Take me to the Youtube channel
-  </Button>
-</a>
-</div>
-      <Home2 />
+   
     </section>
   );
 }
