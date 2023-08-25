@@ -45,7 +45,7 @@ const SingleBlog = () => {
  
   
     return (
-      <div style={{ marginTop: '50px' }}>
+      <div style={{ marginTop: '70px' }}>
         <Card
           style={{
             backgroundColor: '#282c34',
