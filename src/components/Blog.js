@@ -77,7 +77,7 @@ const Blog = () => {
                   <Card.Text
                     style={{
                       color: '#fff',
-                      fontFamily: 'Special Elite, cursive',
+                         fontFamily: 'Carter One, sans-serif',
                       fontSize: '1.2rem',
                       textAlign: 'justify',
                       lineHeight: '1.5',
