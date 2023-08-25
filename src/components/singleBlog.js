@@ -48,7 +48,7 @@ const SingleBlog = () => {
       <div style={{ marginTop: '50px' }}>
         <Card
           style={{
-            backgroundColor: 'white',
+            backgroundColor: '#282c34',
             border: 'none',
             marginBottom:"0px"
            
@@ -57,7 +57,7 @@ const SingleBlog = () => {
           <Card.Body>
             <Card.Title
               style={{
-                color: 'black',
+                color: 'white',
                 fontFamily: 'Carter One, sans-serif',
                 fontSize: '1.5rem',
                 fontWeight: 'bold',
@@ -68,7 +68,7 @@ const SingleBlog = () => {
               {data.post.title}
             </Card.Title>
           
-<div style={{ color: "black",margin:"15px" }} dangerouslySetInnerHTML={{ __html:data.post.content}}/>
+<div style={{ color: "white",margin:"15px" }} dangerouslySetInnerHTML={{ __html:data.post.content}}/>
 
 
 
