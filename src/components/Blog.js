@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Pre from './Pre';
 const QUERY_ALL_POSTS = gql`
   query {
-    user(username: "amschel") {
+    user(username: "techlia") {
       publication {
         posts {
           _id
