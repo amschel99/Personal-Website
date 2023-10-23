@@ -30,7 +30,7 @@ const SingleBlog = () => {
   console.log(id)
 
   const { loading, error, data } = useQuery(SINGLE_POST, {
-    variables: { slug:id, hostname: "amschel" },
+    variables: { slug:id, hostname: "techlia" },
   });
 
   if (error) {
