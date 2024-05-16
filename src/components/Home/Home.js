@@ -9,22 +9,22 @@ import { Link } from "react-router-dom";
 
 function Home() {
   const buttonStyle = {
-  background: "#FF0000",
-  border: "none",
-  color: "#FFFFFF",
-  fontWeight: "bold",
-  padding: "10px 20px",
-  borderRadius: "5px",
-  cursor: "pointer",
-  transition: "background-color 0.3s ease",
-  boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.25)",
-  margin: "10px",
-  fontSize: "16px",
-  lineHeight: "1.5",
-  width: "70%",
-    marginX:"30%",
-  maxWidth: "400px",
-};
+    background: "#FF0000",
+    border: "none",
+    color: "#FFFFFF",
+    fontWeight: "bold",
+    padding: "10px 20px",
+    borderRadius: "5px",
+    cursor: "pointer",
+    transition: "background-color 0.3s ease",
+    boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.25)",
+    margin: "10px",
+    fontSize: "16px",
+    lineHeight: "1.5",
+    width: "70%",
+    marginX: "30%",
+    maxWidth: "400px",
+  };
 
   return (
     <section>
@@ -33,22 +33,21 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-            
-                <span className="wave" role="img" aria-labelledby="wave">
-                 Hello, I'm Amschel Kariuki
+              <h5 style={{ paddingBottom: 15 }} className="">
+                <span role="img" aria-labelledby="wave">
+                  I'm driven by cryptography and blockchain technology. My
+                  research focuses on digital signatures and consensus protocols
+                  to build secure and trust-minimized web 3.0 products. With a
+                  strong background in computer science and a passion for
+                  software engineering and cryptography , I actively contribute
+                  to ecosystems like Polkadot, Solana, and the Internet
+                  Computer, fostering a more decentralized internet.
                 </span>
-              </h1>
+              </h5>
 
-         
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              {/* <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
-              
-              </div>
-
-
- 
+              </div> */}
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -62,8 +61,6 @@ function Home() {
           </Row>
         </Container>
       </Container>
-
-   
     </section>
   );
 }

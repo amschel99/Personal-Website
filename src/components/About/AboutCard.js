@@ -1,40 +1,53 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
-import './about.css'
+import "./about.css";
 function AboutCard() {
   return (
-    <Card className="quote-card-view" style={{background: "linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590561623543-e9abf9e3f3b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RyYXRlZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') center/cover"}}>
+    <Card
+      className="quote-card-view"
+      style={{
+        background:
+          "linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1590561623543-e9abf9e3f3b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c3RyYXRlZ3l8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80') center/cover",
+      }}
+    >
       <Card.Body>
-        <blockquote className="blockquote mb-0" style={{color: "white"}}>
-        <p style={{ textAlign: "justify" }}>
-        <span style={{ fontFamily: 'Roboto', fontSize: '20px', fontWeight: 'bold', color: '#FF6B6B' }}> I am striving to be Stephen Levy's definition of a hacker.</span>
- 
-      <span style={{ 
-  display: 'inline-block',
-  width: '30px',
-  height: '30px',
-  backgroundImage: 'url("data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 128 128\'%3E%3Cpath fill=\'%23E84A5F\' d=\'M89.5 56c-3-14-14-25-28-28l-.5 11c9 2.5 16.5 10 19 19l9-2z\'/%3E%3Cpath fill=\'%23FF847C\' d=\'M65.5 54c-10 0-18 8-18 18s8 18 18 18 18-8 18-18c0-3-.7-6-2-8l-2-2c-4-4-9-6-14-6s-10 2-14 6c-4 4-6 9-6 14s2 10 6 14c4 4 9 6 14 6s10-2 14-6c4-4 6-9 6-14 0-5-2-10-6-14-3.5-3.5-8-5.5-12-5.5zM51.5 56c-3-14-14-25-28-28l-.5 11c9 2.5 16.5 10 19 19l9-2zM79.5 77.5c0 3-2.5 5.5-5.5 5.5s-5.5-2.5-5.5-5.5 2.5-5.5 5.5-5.5 5.5 2.5 5.5 5.5zM51.5 77.5c0 3-2.5 5.5-5.5 5.5s-5.5-2.5-5.5-5.5 2.5-5.5 5.5-5.5 5.5 2.5 5.5 5.5z\'/%3E%3C/svg%3E")',
-  animation: 'crabWalk 0.8s infinite steps(3)',
-  transformOrigin: '50% 50%'
-}}>
-</span>
-
-
-
-
-            <br />
-            <br />
-            To me, hackers are the greatest of individualists. They are people who dare to be different, but who have the integrity not to play games with what they do, no matter what the consequences might be.
-          </p>
-         
-       
-          <p style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>
-            "The process of preparing programs for a digital computer is especially attractive, not only because it can be economically and scientifically rewarding, but also because it can be an aesthetic experience much like composing poetry or music"{" "}
-          </p>
-          <footer className="blockquote-footer" style={{ color: "rgb(155, 126, 172)", fontStyle: "italic" }}>Donald Knuth</footer>
-        
-        </blockquote>
+        <p>
+          Computers always fascinated me, and as a kid, I dreamt of building
+          something amazing like an operating system. That dream led me to
+          pursue a bachelor's degree in computer science in December 2019. In my
+          first year, C became my favorite language, and I delved into number
+          theory and discrete math, laying a strong foundation. My second
+          language, high-level assembly (HLA), aimed to give me a deeper
+          understanding of how information moves within a computer. While HLA
+          wasn't directly applicable, it fueled my curiosity. Java became my
+          next focus, and I built desktop applications with JavaFX and Swing.
+          During my second year, I embraced web development, mastering
+          JavaScript, HTML, CSS, React, TypeScript, and Node.js. This newfound
+          skillset allowed me to build my own products within a year, even
+          monetizing some APIs on RapidAPI. My first professional role came at a
+          startup building a dating app. I served as the frontend developer,
+          leveraging React Native to create a cross-platform application. After
+          nearly a year, I helped launch the product and even built another app
+          for mental health. However, a shift in the founders' vision prompted
+          me to move on. Following that, I contracted with established
+          companies, helping them automate processes through software
+          development. This experience broadened my skillset. My journey then
+          took a fascinating turn towards cryptography. I delved into algorithms
+          like ECDSA and RSA, explored hash functions, Merkle trees, and Lamport
+          signatures. This was a pivotal moment – I knew cryptography was where
+          I wanted to focus my career. Cryptography's beauty lies in its
+          duality: an art and a powerful tool. It underpins the internet's
+          security and paves the way for a decentralized future. In fact,
+          cryptography and blockchain are philosophies built on the core
+          principle of decentralization. My passion for cryptography has
+          manifested in open-source projects. I've ported cryptographic
+          algorithms to Rust and even built a simple layer-1 blockchain using
+          Proof-of-Work consensus. Research, development, and staying current
+          through research papers are my constant companions. I'm particularly
+          interested in Solana, Polkadot, and Internet Computer (ICP), as they
+          represent the cutting edge of this exciting field.
+        </p>
       </Card.Body>
     </Card>
   );

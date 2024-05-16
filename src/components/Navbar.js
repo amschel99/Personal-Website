@@ -40,7 +40,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-       <h4>Amschel Kariuki</h4>
+          <h4>Amschel Kariuki</h4>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -70,7 +70,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -81,9 +81,9 @@ function NavBar() {
                 />{" "}
                Projects
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
-{/* <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
@@ -92,18 +92,16 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Amschel's Resume
               </Nav.Link>
             </Nav.Item>
-*/}  
+*/}
             <Nav.Item>
               <Nav.Link
-            as={Link}
+                as={Link}
                 to="/blog"
                 onClick={() => updateExpanded(false)}
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Articles
               </Nav.Link>
             </Nav.Item>
-
-          
           </Nav>
         </Navbar.Collapse>
       </Container>
