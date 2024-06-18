@@ -13,19 +13,19 @@ function AboutCard() {
     >
       <Card.Body>
         <p>
- Majored in computer science on a whim during my senior year of high school. Originally drawn to creative pursuits like writing and filmmaking.
-Animation sparked an interest in building worlds and storytelling through technology.
+ I Majored in computer science. I was Originally drawn to creative pursuits like writing and filmmaking.
+Animation then sparked an interest in building worlds and storytelling through technology.
 
-Discovered a love for programming languages like C and assembly during my studies.
+During my studies, I discovered a love for programming languages like C and assembly.
 
-Gained experience as a full-stack developer, building various applications including dating and mental health apps.
+I gained experience as a full-stack developer, building various applications including dating and mental health apps.
 
-Intrigued by cryptography, I learned Rust for low-level programming and dove into cryptocurrency engineering concepts.
+I was intrigued by cryptography, I learned Rust for low-level programming and dove into cryptocurrency engineering concepts.
 
-Studied blockchain fundamentals through MIT courses and independent research. Developed a fascination with the technology and its potential for a decentralized future.
- Actively building projects within the Internet Computer Protocol (ICP) ecosystem. Co-founded a startup (Tefro) focused on tokenizing digital assets.
+I then studied blockchain fundamentals through MIT courses and independent research. I developed a fascination with the technology and its potential for a decentralized future.
+I am actively building projects within the Internet Computer Protocol (ICP) ecosystem. I co-founded a startup (Reorg) focused on tokenizing digital assets.
 
-Future Focus: Driven by the idea of a decentralized world built on cryptographic truth. Excited to contribute to a more inclusive and empowering future.
+I am driven by the idea of a decentralized world built on cryptographic truth. Excited to contribute to a more inclusive and empowering future.
         </p>
       </Card.Body>
     </Card>
