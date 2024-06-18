@@ -13,15 +13,21 @@ function AboutCard() {
     >
       <Card.Body>
         <p>
-        Computers always fascinated me, and as a kid, I dreamt of building something amazing like an operating system. That dream led me to pursue a bachelor's degree in computer science in December 2019. In my first year, C became my favorite language, and I delved into number theory and discrete math, laying a strong foundation. My second language, high-level assembly (HLA), aimed to give me a deeper understanding of how information moves within a computer. While HLA wasn't directly applicable, it fueled my curiosity. Java became my next focus, and I built desktop applications with JavaFX and Swing. During my second year, I embraced web development, mastering JavaScript, HTML, CSS, React, TypeScript, and Node.js. This newfound skillset allowed me to build my own products within a year, even monetizing some APIs on RapidAPI.
+    Studying computer science wasn't something I planned since childhood; it was more of a chance occurrence. In my final year of high school, we had to choose a major for college. Many students chose medicine, civil engineering, or electrical engineering.
 
-My first professional role came at a startup building a dating app. I served as the frontend developer, leveraging React Native to create a cross-platform application. After nearly a year, I helped launch the product and even built another app for mental health. Following that, I contracted with established companies, helping them automate processes through software development. This experience broadened my skillset.
+As a writer, poet, and filmmaker at heart, I was always captivated by the ability to create new worlds through words or film. Then, animation caught my eye – a way to build worlds and tell stories in a captivating way.
 
-My journey then took a fascinating turn towards cryptography. I delved into algorithms like ECDSA and RSA, explored hash functions, Merkle trees, and Lamport signatures. This was a pivotal moment – I knew cryptography was where I wanted to focus my career. Cryptography's beauty lies in its duality: an art and a powerful tool. It underpins the internet's security and paves the way for a decentralized future. In fact, cryptography and blockchain are philosophies built on the core principle of decentralization.
+After high school, I weighed my options and decided on computer science. Fast forward, I discovered a love for programming languages like C and assembly. From there, I delved into web development, servers, frontend technologies, and more (including Node.js). I even landed some jobs and started working as a full-stack developer. I built a dating app, a mental health app, and more.
 
-My passion for cryptography has manifested in open-source projects. I've ported cryptographic algorithms to Rust and even built a simple layer-1 blockchain using Proof-of-Work consensus. Research, development, and staying current through research papers are my constant companions. I'm particularly interested in Solana, Polkadot, and Internet Computer (ICP), as they represent the cutting edge of this exciting field.
+Cryptography always intrigued me, but it seemed daunting. I tried reading massive books on the subject, but the concepts were difficult to grasp. However, my interest remained. To explore low-level programming and keep up with developer debates about the fastest languages, I learned Rust, gaining a powerful tool in my arsenal.
 
-In addition to my professional work, I'm the co-founder of a blockchain startup called Tefro, which builds protocols on ICP for p2p agreements, DAOs, NFTs, DeFi, and asset tokenization. I'm also writing a book called 'The Nitty Gritties of Blockchain and Cryptocurrency Engineering.
+This journey led me to cryptocurrency engineering. I devoured MIT courses, articles about Lamport signatures, consensus mechanisms (PoW, PoS), Merkle trees, and more. I was enthralled by these concepts and even attempted to implement some, like Lamport signatures and Merkle trees.
+
+Then, I discovered Internet Computer Protocol (ICP). Learning about Dominic Williams and the technology behind ICP (ECDSA, etc.) solidified my belief that blockchain was the path for me. Currently, I'm actively building projects within the ICP ecosystem.
+
+We also co-founded a startup called Tefro, which tokenizes digital assets. This required extensive research on token economics, bonding curves, and DAO design. We've successfully completed our beta launch, and I remain fascinated by blockchain technology, particularly the philosophy of a decentralized world, an inclusive economy, and empowering individuals.
+
+My passion lies in a world built on cryptographic truth, and that's where I see my future.
         </p>
       </Card.Body>
     </Card>
