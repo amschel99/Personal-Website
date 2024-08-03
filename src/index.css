@@ -6,8 +6,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(27, 20, 41), rgb(20, 15, 35));
 }
-.c{
-  color:rgb(27 20 41);
+.c {
+  color: rgb(27 20 41);
 
   background-color: rgb(20 15 35);
 }

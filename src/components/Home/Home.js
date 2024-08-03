@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-
-import Type from "./Type";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -26,6 +24,12 @@ function Home() {
     maxWidth: "400px",
   };
 
+  const bioStyle = {
+    lineHeight: "1.6",
+    paddingBottom: "15px",
+    textAlign: "left",
+  };
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -33,21 +37,39 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h5 style={{ paddingBottom: 15 }} className="">
-                <span role="img" aria-labelledby="wave">
-                  I'm driven by cryptography and blockchain technology. My
-                  research focuses on digital signatures and consensus protocols
-                  to build secure and trust-minimized web 3.0 products. With a
-                  strong background in computer science and a passion for
-                  software engineering and cryptography , I actively contribute
-                  to ecosystems like Polkadot, Solana, and the Internet
-                  Computer, fostering a more decentralized internet.
+              <h5 style={bioStyle}>
+                I'm a passionate blockchain engineer with a deep understanding
+                of core concepts like digital signatures, consensus mechanisms,
+                and game theory. I leverage this knowledge to design and
+                implement innovative solutions on blockchains like:
+                <ul>
+                  <li>Solana</li>
+                  <li>Ethereum</li>
+                  <li>ICP</li>
+                  <li>Polkadot</li>
+                </ul>
+                Beyond blockchain, I'm a seasoned software engineer. Prior to
+                diving into the world of Web3, I honed my skills building Web2
+                solutions for startups. I'm proficient in:
+                <ul>
+                  <li>TypeScript</li>
+                  <li>Node.js</li>
+                  <li>React</li>
+                  <li>React Native</li>
+                  <li>Rust</li>
+                </ul>
+                I also have experience with cloud platforms like AWS and Azure.
+                My expertise extends to tokenomics and launch strategy. I act as
+                a trusted advisor to crypto projects, guiding them on token
+                design and launch strategies. As the founder of{" "}
+                <span style={{ cursor: "pointer" }}>
+                  <a style={{ cursor: "pointer" }} href="https://reorg.network">
+                    reorg.network
+                  </a>
                 </span>
+                , I'm building a platform that facilitates expert-backed token
+                launches, driving innovation in the crypto space.
               </h5>
-
-              {/* <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div> */}
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
@@ -55,7 +77,11 @@ function Home() {
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{
+                  maxHeight: "450px",
+                  width: "100%",
+                  objectFit: "cover",
+                }}
               />
             </Col>
           </Row>

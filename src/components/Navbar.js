@@ -63,10 +63,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/projects"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About me
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
 
@@ -83,24 +83,31 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item> */}
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Amschel's Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} />
+                Resume
               </Nav.Link>
             </Nav.Item>
-*/}
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/blog"
-                onClick={() => updateExpanded(false)}
+
+            <Nav.Item style={{ marginTop: "15px" }}>
+              {/* <Nav.Link> */}
+              <a
+                style={{
+                  outline: "none",
+                  textDecoration: "none",
+                  color: "white",
+                }}
+                target="_blank"
+                href="https://amschlone.medium.com/"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Articles
-              </Nav.Link>
+              </a>
+              {/* </Nav.Link> */}
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
